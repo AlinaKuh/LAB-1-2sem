@@ -71,12 +71,12 @@ int SimpleSelect() {
 		else if (answer == 2)
 			SelectSubstances();
 		else {
-			std::cout << "Wrong answer, try again!\n\n";
+			std::cout << "Not right, try again!\n\n";
 			SelectSubstances();
 		}
 	}
 	else {
-		std::cout << "Wrong answer, try again!\n\n";
+		std::cout << "Not right, try again!\n\n";
 		return SimpleSelect();
 	}
 	return 0;
@@ -111,7 +111,7 @@ int ComplexDescription() {
 	else if (answer == 0)
 		SelectSubstances();
 	else {
-		std::cout << "Wrong answer, try again!\n\n";
+		std::cout << "Not right, try again!\n\n";
 		return ComplexDescription();
 	}
 	return 0;
