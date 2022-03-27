@@ -22,7 +22,7 @@ public:
 	int Description() {
 		name = "\nSimple";
 		description = "Substances consisting exclusively of atoms of one chemical element (from homonuclear molecules), in contrast to complex substances.\n\n";
-		std::cout << "Do you want to read description?\n1.Yes.\n2.No.\n";
+		std::cout << "Open description?\n1.Yes.\n2.No.\n";
 		std::cout << "0.Exit.\n";
 		std::cout << "Your answer: ";
 		std::cin >> answer;
@@ -54,7 +54,7 @@ public:
 	int Description() {
 		name = "\nComplex ";
 		description = " Substances composed of atoms of different chemical elements are called complex. Most chemicals are complex. Many complex substances have a molecular structure.\n\n";
-		std::cout << "Do you want to read description?\n1.Yes.\n2.No.\n";
+		std::cout << "Open description?\n1.Yes.\n2.No.\n";
 		std::cout << "0.Exit.\n";
 		std::cout << "Your answer: ";
 		std::cin >> answer;
