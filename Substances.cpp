@@ -8,11 +8,11 @@ int SelectSubstances();
 
 int SimpleDescription();
 int SimpleSelect();
-int SimpleTransport(int transport);
+int SimpleSubstances(int substances);
 
 int ComplexDescription();
 int ComplexSelect();
-int ComplexTransport(int transport);
+int ComplexSubstances(int substances);
 
 int ReloadSubstances(int answer);
 int ReloadOrEnd(int ClassNumber);
