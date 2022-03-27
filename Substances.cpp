@@ -126,7 +126,7 @@ int ComplexSelect() {
 		return ComplexSubstances(answer);
 	else if (answer == 0) {
 		std::cout << "Which step do you want to go back to?\n";
-		std::cout << "1.Description.\n2.Transport.\n";
+		std::cout << "1.Description.\n2.Substances.\n";
 		std::cout << "Your answer: ";
 		std::cin >> answer;
 		std::cout << "\n";
